@@ -1,42 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Next.js Landing Page</title>
-    <link rel="stylesheet" href="/style.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="hero">
-        <h1>Welcome to our Next.js Landing Page</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet urna euismod, dapibus mauris in, maximus velit.</p>
-        <a href="#" class="button">Get started</a>
-      </section>
-      <section id="features">
-        <h2>Our Features</h2>
-        <ul>
-          <li>Fast server-side rendering with Next.js</li>
-          <li>Easy to use and maintain</li>
-          <li>SEO-friendly</li>
-          <li>Customizable and scalable</li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright © 2023</p>
-    </footer>
-  </body>
-</html>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Assetnote - Continuous Security Across Your External Attack Surface</title>
+    <!-- Meta Share -->
+    <meta property="og:title" content="Assetnote - Continuous Security Across Your External Attack Surface" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/og-image.jpg"/>
+    <!-- CSS Files -->
+    <link href="https://fonts.googleapis.com/css?family=Product+Sans:300,400,700" rel="stylesheet">
+    <!-- build:css css/app.min.css -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/global/bootstrap.min.css">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/global/plugins/icon-font.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icons -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"> 
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <!-- /build -->
+</head>
+
+<body class="overflow-hidden">
+    <header id="home">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/global/assetnote-logo-centred.svg" class="logo-dark" alt="Assetnote Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="site-nav">
+                    <ul class="navbar-nav text-sm-left ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-toggle="dropdown">Continuous Security Platform <span class="pe-2x pe-7s-angle-down"></span>  </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="continuous-security/index.html#overview">Overview</a>
+                                <a class="dropdown-item" href="continuous-security/index.html#asm">Attack Surface Management</a>
+                                <a class="dropdown-item" href="continuous-security/index.html#howitworks">How It Works</a>
+                                <a class="dropdown-item" href="continuous-security/index.html#automatedassets">Automated Asset Discovery</a>
+                                <a class="dropdown-item" href="continuous-security/index.html#continuoussecurity">Continuous Security Analysis</a>
+                                <a class="dropdown-item" href="continuous-security/index.html#usecases">Use Cases</a>
+                                <a class="dropdown-item" href="continuous-security/index.html#api-and-integrations">API & Integrations</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-toggle="dropdown">Use Cases <span class="pe-2x pe-7s-angle-down"></span>  </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="use-cases/asset-inventory.html">Continuous Asset Discovery and Inventory</a>
+                                <a class="dropdown-item" href="use-cases/continuous-security-monitoring.html">Real-time Security Exposure Monitoring</a>
+                                <a class="dropdown-item" href="use-cases/attack-surface-reduction.html">Attack Surface Reduction</a>
+                                <a class="dropdown-item" href="use-cases/cloud-asset-monitoring.html">Cloud Asset Monitoring</a>
+                                <a class="dropdown-item" href="use-cases/mergers-and-acquisitions.html">Mergers & Acquisitions</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-toggle="dropdown">Company <span class="pe-2x pe-7s-angle-down"></span>  </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="company/about-us.html">About Us</a>
+                                <a class="dropdown-item" href="company/careers.html">Careers</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://blog.assetnote.io">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://labs.assetnote.io">Labs</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a href="#signup" class="btn align-middle btn-primary my-2 my-lg-0">Request A Demo</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- // end navbar -->
+
+
+        <!-- hero -->
+        <section class="jumbotron-two">
+
+            <div class="container">
+
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-5">
+
+                        <h1 class="display-5">Do you know your exposure to external attack?</h1>
+                        <p class="text-muted mb-3"> Gain continuous insight and control of your evolving exposure to external attack with Assetnote's industry leading Attack Surface Management Platform.</p>
+                        <p>
+                            <a href="continuous-security/index.html" class="btn btn-xl btn-primary">Learn More</a>
+                        </p>
+
+                    </div>
+                    <div class="col-12 col-md-7 my-3 my-md-lg">
+
+                        <div class="cast-shadow">
+                            <img src="images/dashboard.png" alt="image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="client-logos text-center">
+                    <p class="text-muted">HELPING ORGANIZATIONS AROUND THE WORLD SECURE THEIR ATTACK SURFACE</p>
+                    <div class="client-logos-grid">
+                        <img class="client-logos-grid-item" src="images/client_logo_1.png" alt="Atlassian" />
+                        <img class="client-logos-grid-item" src="images/client_logo_2.png" alt="Segment" />
+                        <img class="client-logos-grid-item" src="images/qantas-new.png" alt="Qantas" />
+                        <img class="client-logos-grid-item" src="images/client_logo_6.png" alt="Afterpay" />
+                        <img class="client-logos-grid-item" src="images/expressvpn-logo.svg" alt="ExpressVPN" />
+                        <img class="client-logos-grid-item" src="images/client_logo_12.png" alt="BHP" />
+                        <img class="client-logos-grid-item" src="images/canva-logo.png" alt="Canva" />
+                        <img class="client-logos-grid-item" src="images/client_logo_7.png" alt="Australia Post" />
+                        <img class="client-logos-grid-item" src="images/checkpoint-logo.png" alt="Checkpoint" style="max-width: 80%;" />
+                        <img class="client-logos-grid-item" src="images/client_logo_13.png" alt="Seek" />
+                    </div>
+                </div>
+            
+            </div>
+
+        </section>
+        <!-- // end hero -->
+
+
+        <div class="bg-shape"></div>
+        <div class="bg-circle"></div>
+        <div class="bg-circle-two"></div>
+
+    </header>
+
+    <!-- features -->
+
+
+    <div class="section bg-light py-lg">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="media">
+
+                        <!-- // end .di -->
+                        <div class="media-body text-center">
+                            <div class="color-icon mb-3"> <i class="pe-7s-lock pe-3x"></i> </div>
+                            <h5 class="mt-0">Protect Your External Attack Surface</h5> Assetnote automatically maps your external assets and monitors them for changes and security issues to help prevent serious breaches.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="media">
+                        <!-- // end .di -->
+                        <div class="media-body text-center">
+                            <div class="color-icon mb-3"> <i class="pe-7s-gleam pe-3x"></i> </div>
+                            <h5 class="mt-0">Stay Ahead Of The Attackers</h5> Modern development and infrastructure management practices are fast paced and constantly changing. Attackers have evolved, have you? Keep up with Assetnote.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="media">
+                        <!-- // end .di -->
+                        <div class="media-body text-center">
+                            <div class="color-icon mb-3"> <i class="pe-7s-look pe-3x"></i> </div>
+                            <h5 class="mt-0">Improve Your Asset Awareness</h5> You can't protect what you don't know is out there. Improve your asset awareness with Assetnote.
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- // end features -->
+
+    <!-- Features -->
+    <div class="section" id="features">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-8">
+                    <div class="browser-window limit-height my-5 mr-0 mr-sm-5">
+                        <div class="content">
+                            <img src="images/exposure2.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="media">
+                        <div class="media-body">
+                            <div class="media-icon mb-3"> <i class="pe-7s-display1 pe-3x"></i> </div>
+                            <h3 class="mt-0">Situational Awareness of Your External Attack Surface</h3>
+                            <p> Assetnote continually monitors your external attack surface as it evolves allowing you to identify and triage high impact security issues quickly. </p>
+                            <p>Because Assetnote is performing continuous discovery and security analysis you can find issues in ephemeral and in-development assets before the attackers do. Don't wait until your next quarterly penetration test (or worse a breach) to find out you have a security issue. Find out immediately with Assetnote.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="row align-items-center mt-5">
+
+                <div class="col-sm-4">
+                    <div class="media">
+                        <div class="media-body">
+                            <div class="media-icon mb-3"> <i class="pe-7s-menu pe-3x"></i> </div>
+                            <h3 class="mt-0">High-Signal, Continuous Security Analysis</h3>
+                            <p>Continuously monitor your attack surface for application security based regressions with Assetnote. Our advanced security engine is asset aware and optimized to identify vulnerabilities that have actual security impact so you are not wasting your time triaging "filler" issues.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-8">
+                    <img src="images/vuln_feed.png" alt="image" class="img-fluid cast-shadow my-5">
+                </div>
+
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-sm-8">
+                    <div class="browser-window limit-height my-5 mr-0 mr-sm-5">
+                        <div class="content">
+                            <img src="images/exposure.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="media">
+                        <div class="media-body">
+                            <div class="media-icon mb-3"> <i class="pe-7s-shield pe-3x"></i> </div>
+                            <h3 class="mt-0">Easily Understand the Security Exposure of Your External Footprint</h3>
+                            <p>Each asset and asset group in Assetnote has an exposure rating indicating the overall security state of that asset or asset group.</p>
+                            <p>Using Assetnote's Dashboard you can easily understand what is bringing the health of your assets down and more effectively invest in remediation and defensive activities.</p>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- // end #services.section -->
+    <div class="section bg-light pt-lg">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="media mb-5">
+                        <div class="media-icon d-flex mr-3"> <i class="pe-7s-network pe-3x"></i> </div>
+                        <!-- // end .di -->
+                        <div class="media-body">
+                            <h5 class="mt-0">Automated Asset Discovery</h5> Utilizing advanced reconnaissance techniques across web and mobile channels, Assetnote continuously maps out your evolving external attack surface. Keep pace with your development teams with Assetnote.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="media mb-5">
+                        <div class="media-icon d-flex mr-3"> <i class="pe-7s-refresh-2 pe-3x"></i> </div>
+                        <!-- // end .di -->
+                        <div class="media-body">
+                            <h5 class="mt-0">Continuous Security Analysis</h5> Assetnote continuously analyzes your evolving attack surface for security weaknesses using our high-signal security engine tuned on years of security research and successful bug bounties.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="media mb-5">
+                        <div class="media-icon d-flex mr-3"> <i class="pe-7s-attention pe-3x"></i> </div>
+                        <!-- // end .di -->
+                        <div class="media-body">
+                            <h5 class="mt-0">Prioritized Actionable Exposures</h5> Assetnote Exposure Engine is built to find real exploitable exposures and provide you only those alerts and minimize false positives.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="media mb-5">
+                        <div class="media-icon d-flex mr-3"> <i class="pe-7s-folder pe-3x"></i> </div>
+                        <!-- // end .di -->
+                        <div class="media-body">
+                            <h5 class="mt-0">Powerful Asset Management</h5> Most of our clients have thousands of externally facing assets that are constantly evolving. Keeping track of these assets is easy with Assetnote's powerful asset management features.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="media mb-5">
+                        <div class="media-icon d-flex mr-3"> <i class="pe-7s-plugin pe-3x"></i> </div>
+                        <!-- // end .di -->
+                        <div class="media-body">
+                            <h5 class="mt-0">Integrations and API</h5> Assetnote is not a "black box". Tap into your rich, continuously up-to-date asset database with a number of built-in integrations or write your own with our API.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="media mb-5">
+                        <div class="media-icon d-flex mr-3"> <i class="pe-7s-graph1 pe-3x"></i> </div>
+                        <!-- // end .di -->
+                        <div class="media-body">
+                            <h5 class="mt-0">Scalable and Robust</h5> Battle tested for years on the bug bounty frontlines, Assetnote can handle continuous security assessment across hundreds of thousands of assets without breaking a sweat.
+                        </div>
+                    </div>
+                </div>
+                <!-- // end .col -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup -->
+    <div class="section" id="signup">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>See Assetnote in action</h3>
+                <p>Find out how Assetnote can help you lock down your external attack surface.</p>
+                <p>Use the lead form below, or alternatively contact us via email by clicking <a href="/cdn-cgi/l/email-protection#2457454841576445575741504a4b50410a4d4b1b5751464e414750196c4d0409046d0349044d4a5041564157504140044d4a0465575741504a4b504102464b405d19744c4b4a41046a51494641561e040114656e4b4604704d5048411e04011465674b4954454a5d1e040114656a415c500477504154571e044d410a046041494b0804625156504c415604604b475149414a5045504d4b4a01146566515d4d4a4304675d4748411e0475150b75160b75170b7510">here.</a>
+</p>
+            </div>
+            <div class="row justify-content-md-center" id="form-component">
+                <div class="col col-md-5">
+                    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" name="leads" id="leads">
+                        <input type=hidden name="oid" value="00D2v0000027QHD">
+                        <input type=hidden name="retURL" value="https://assetnote.io/thank-you.html">
+                        <div class="form-group">
+                            <input type="text" id="name" name="00N2j000000ydfD" onchange="TextCapture(this)" class="form-control" placeholder="Full Name" required>
+                            <input type="hidden" id="first_name" maxlength="40" name="first_name" size="20" type="text" />
+                            <input type="hidden" id="last_name" maxlength="80" name="last_name" size="20" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="title" id="title" class="form-control" placeholder="Job Title" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="company" id="company" class="form-control" placeholder="Company" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="00N2j000000ydfI" id="00N2j000000ydfI" class="form-control" placeholder="Why are you interested?" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="00N2j000000ydet" id="00N2j000000ydet" class="form-control" style="color:#bdc1c3;" required>
+                              <option disabled selected hidden value="">Preferred Next Steps</option>
+                              <option value="Contact a Sales Person">Contact a Sales Person</option>
+                              <option value="Further Documentation">Further Documentation</option>
+                              <option value="Demo">Demo</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="00N2j000000ydf8" id="00N2j000000ydf8" class="form-control" style="color:#bdc1c3;" required>
+                              <option disabled selected hidden value="">Buying Cycle</option>
+                              <option value="Q1: Jan - Mar">Q1: Jan - Mar</option>
+                              <option value="Q2: Apr - Jun">Q2: Apr - Jun</option>
+                              <option value="Q3: Jul - Sep">Q3: Jul - Sep</option>
+                              <option value="Q4: Oct - Dec">Q4: Oct - Dec</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-xl btn-block btn-primary">REQUEST A DEMO</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row justify-content-md-center" id="thank-you-component" style="display:none">
+                <div class="col col-md-5">
+                    <div class="section-title text-center">
+                        <h3>Thank you!</h3>
+                        <p>We will be in touch.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section bg-light mt-4" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"> <img src="images/global/assetnote-logo-footer.png" class="logo-dark" alt="Assetnote Logo" />
+                </div>
+                <div class="col-sm-2">
+                    <b>Continuous Security Platform</b>
+                    <ul class="list-unstyled footer-links ml-1">
+                        <li><a href="continuous-security/index.html#overview">Overview</a></li>
+                        <li><a href="continuous-security/index.html#asm">Attack Surface Management</a></li>
+                        <li><a href="continuous-security/index.html#howitworks">How It Works</a></li>
+                        <li><a href="continuous-security/index.html#automatedassets">Automated Asset Discovery</a></li>
+                        <li><a href="continuous-security/index.html#continuoussecurity">Continuous Security Analysis</a></li>
+                        <li><a href="continuous-security/index.html#usecases">Use Cases</a></li>
+                        <li><a href="continuous-security/index.html#api-and-integrations">API & Integrations</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul class="list-unstyled footer-links ml-1">
+                        <b>Use Cases</b>
+                        <li><a href="use-cases/asset-inventory.html">Continuous Asset Discovery and Inventory</a></li>
+                        <li><a href="use-cases/continuous-security-monitoring.html">Real-time Security Exposure Monitoring</a></li>
+                        <li><a href="use-cases/attack-surface-reduction.html">Attack Surface Reduction</a></li>
+                        <li><a href="use-cases/cloud-asset-monitoring.html">Cloud Asset Monitoring</a></li>
+                        <li><a href="use-cases/mergers-and-acquisitions.html">Mergers & Acquisitions</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul class="list-unstyled footer-links ml-1">
+                        <b>Company</b>
+                        <li><a href="company/about-us.html">About Us</a></li>
+                        <li><a href="company/careers.html">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-2">
+                    <ul class="list-unstyled footer-links ml-1">
+                        <b>Resources</b>
+                        <li><a href="https://blog.assetnote.io">Blog</a></li>
+                        <li><a href="https://labs.assetnote.io">Research</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-sm-2">
+                    <ul class="list-unstyled footer-links ml-1">
+                        <b>Social Media</b>
+                        <li><a href="https://www.facebook.com/assetnote/">Facebook</a></li>
+                        <li><a href="https://twitter.com/assetnote">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/company/assetnote">Linkedin</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-sm-2">
+                    <a href="#home" class="btn btn-sm btn-outline-primary ml-1">Go to Top</a>
+                </div>
+                
+            </div>
+            <!-- // end .row -->
+            <div class=" text-center mt-4"> <small class="text-muted">Copyright ©
+                          <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+                          document.write(new Date().getFullYear());
+                          </script>
+                          Assetnote Pty.Ltd.
+                      </small></div>
+        </div>
+        <!-- // end .container -->
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122322905-2"></script>
+    <!-- JQuery -->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    
+    <script src="js/gtag.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="js/global/bootstrap.bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/script.js"></script>
+    <script>
+        (function() {
+        var zi = document.createElement('script');
+        zi.type = 'text/javascript';
+        zi.async = true;
+        zi.src = 'https://ws.zoominfo.com/pixel/A91R5AKxDaTiXCps2FIl';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(zi, s);
+        })();
+    </script>
+    <noscript>
+        <img src="https://ws.zoominfo.com/pixel/A91R5AKxDaTiXCps2FIl"
+        width="1" height="1" style="display: none;" />
+    </noscript>
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('0ZJ9PNOqDH9eHX57g23zBeflef71KBRXRnEbtkY-vD0',{api_host:'https://app.posthog.com'})
+    </script>
+    <script>
+        function TextCapture(txtid)
+        {
+            var OriginalValue=document.getElementById("name").value;
+            document.getElementById("first_name").value=OriginalValue.substr(0,OriginalValue.indexOf(' ')); 
+            document.getElementById("last_name").value=OriginalValue.substr(OriginalValue.indexOf(' ')+1);;
+        }
+    </script>
+    <script>
+        !function(t){if(window.ko)return;window.ko=[],["identify","track","removeListeners","open","on","off","qualify","ready"].forEach(function(t){ko[t]=function(){var n=[].slice.call(arguments);return n.unshift(t),ko.push(n),ko}});var n=document.createElement("script");n.async=!0,n.setAttribute("src","https://cdn.getkoala.com/v1/pk_a39c13e7cbab005ae0f3a62c1264b27faae7/sdk.js"),(document.body || document.head).appendChild(n)}();
+    </script>
+</body>
+
+</html>
